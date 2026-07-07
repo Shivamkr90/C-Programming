@@ -1,0 +1,14 @@
+//Program: Calcutale Area of Square.
+
+#include <stdio.h>
+
+int main()
+{
+    int side;
+    printf("enter side: ");
+    scanf("%d", &side);
+
+    printf("square is: %d", side * side);
+
+    return 0;
+}

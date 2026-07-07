@@ -1,0 +1,13 @@
+// W.A.P. to check no. divisible of 2 or not.
+
+#include <stdio.h>
+
+int main(){
+    int a;
+    printf("Enter no.:");
+    scanf("%d", &a);
+
+    printf("%d", a % 2 == 0);
+
+    return 0;
+}

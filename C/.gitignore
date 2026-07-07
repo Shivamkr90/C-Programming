@@ -1,0 +1,11 @@
+.vscode/
+*.exe
+build/
+Debug/
+Release/
+*.o
+*.obj
+*.class
+__pycache__/
+*.pyc
+*.log
