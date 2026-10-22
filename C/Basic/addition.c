@@ -1,16 +1,14 @@
 #include <stdio.h>
 
-int main()
-{
-    int a, b;
-
-    printf("enter a:");
+int main() {
+    int a,b;
+    printf("Enter no.1.: ");
     scanf("%d", &a);
 
-    printf("enter b:");
+    printf("Enter no.2.: ");
     scanf("%d", &b);
 
-    printf("sum is: %d", a + b);
+    printf("no. + no.2. = %d\n", a+b);
 
     return 0;
 }
